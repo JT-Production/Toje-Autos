@@ -23,23 +23,16 @@ const menuVariants = {
   hidden: { 
     opacity: 0, 
     y: -20,
-    transition: { duration: 0.3 }
   },
   visible: { 
     opacity: 1, 
     y: 0,
-    transition: {
-      type: "spring",
-      stiffness: 300,
-      damping: 30,
-    }
   },
   exit: { 
     opacity: 0, 
     y: -20,
-    transition: { duration: 0.2 }
   },
-};
+} as const;
 
 const navLinks = [
   { href: "/vehicles", label: "Vehicles" },
