@@ -59,7 +59,7 @@ export default function SearchFilter() {
 
   return (
     <motion.div 
-      className=" flex items-center justify-center p-6 md:px-20 md:-translate-y-24 -translate-y-20 z-50 absolute w-full"
+      className=" flex items-center justify-center p-6 md:px-20 md:-translate-y-24 -translate-y-50 z-50 absolute w-full"
       initial="hidden"
       whileInView="visible"
       viewport={{ once: true }}

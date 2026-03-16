@@ -61,7 +61,7 @@ export default function Navbar() {
     }, [])
 
   return (
-    <div className='md:px-20 z-50 absolute w-full '>
+    <div className='md:px-20 z-50 absolute w-full px-4 md:px-0'>
         <div className={`flex justify-between items-center ${scrolled ? 'bg-black/20 backdrop-blur-sm rounded-full px-6 mt-2 fixed transition-all ease-in-out duration-300 mx-auto left-0 right-0 w-9/10' : ''} `}>
             <Link href={"/"} className="">
             <Image src={logo} alt='logo' width={1000} height={1000} className='object-co  w-2/3 bg'/>

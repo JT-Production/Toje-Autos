@@ -44,7 +44,7 @@ export default function Hero({image, title, subtitle}:{image:string, title:strin
   return (
     <div className="absolut top-0 h-[90vh] w-full overflow-hidden -z-50">
         <Navbar/>
-        <div className="absolute inset-0 bg-black/50 z-1 h-[90vh]"></div>
+        <div className="absolute inset-0 bg-black/50 z-1 md:h-[90vh] h-[70vh]"></div>
         <motion.div
           variants={imageZoomVariants}
           initial="hidden"
@@ -56,7 +56,7 @@ export default function Hero({image, title, subtitle}:{image:string, title:strin
             alt="hero"
             width={1000}
             height={1000}
-            className="w-full object-cover object-center h-full"
+            className="w-full object-cover object-center md:h-[90vh] h-[70vh]"
           />
         </motion.div>
 

@@ -107,13 +107,13 @@ export default function Footer() {
       {/* Bottom bar */}
       <div className="border-t border-gray-800 px-8 md:px-12 py-5 flex flex-col md:flex-row items-center justify-between gap-3 text- text-gray-400">
         <span>TojeAutos © 2026</span>
-        <div className="flex gap-6">
+        {/* <div className="flex gap-6">
           {["Cookie policy", "Terms of service", "Privacy policy"].map((item) => (
             <a key={item} href="#" className="hover:text-white transition-colors">
               {item}
             </a>
           ))}
-        </div>
+        </div> */}
       </div>
     </motion.footer>
   );
